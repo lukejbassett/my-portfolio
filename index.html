@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- css reset -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- javascript -->
+    <script src="main.js" async></script>
+    <title>Luke Bassett | Front-End Developer</title>
+  </head>
+  <body>
+    <header class="nav-container">
+      <span class="nav-container--logo">Luke</span>
+      <nav class="main-nav">
+        <ul class="main-nav--links">
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#projects">Projects</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+          <li>
+            <a href="./CV Luke Bassett (08-01-23).pdf" class="btn btn-primary"
+              >Download CV</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <div class="hamburger"><span></span><span></span><span></span></div>
+    </header>
+    <section class="hero-section">
+      <div class="hero-container">
+        <div class="hero-container--content">
+          <h1 class="heading-one">Hi, I'm <strong>Luke</strong>!</h1>
+          <span class="subheading"
+            >I'm an aspiring <strong>Frontend Developer</strong></span
+          >
+          <div class="hero-body">
+            <p>
+              I love developing websites! Constantly evolving and learning new
+              technologies, with a slight passion for motorsport.
+            </p>
+          </div>
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="./CV Luke Bassett (08-01-23).pdf" class="btn btn-secondary"
+            >Download CV</a
+          >
+        </div>
+      </div>
+    </section>
+    <main>
+      <section class="section about-section" id="about">
+        <div class="about-container">
+          <h2 class="section-title">About</h2>
+          <div class="about-container-grid">
+            <ul class="tags about-container--tags">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>PHP</li>
+              <li>Git</li>
+              <li>GitHub</li>
+              <li>Photoshop</li>
+              <li>XD</li>
+              <li>VSCode</li>
+              <li>Figma</li>
+            </ul>
+            <div class="about-container--body">
+              <p>
+                An aspiring frontend developer currently enrolled in the
+                <strong>Meta Frontend Development Course</strong> I have self
+                taught the basics of HTML, CSS and JavaScript and I'm now
+                looking for ways to get credibility to aquire an entry level
+                developer job.
+              </p>
+              <p>
+                From a young age I was introduced to computers I have always had
+                a interest in how they work since I have built computers from
+                scratch. After Completing my <strong>HND</strong> I found a new
+                interest in the software involved and began learning Web
+                Development.
+              </p>
+              <a href="soon.html" class="link">Read More</a>
+            </div>
+            <div class="about-container--img">
+              <img
+                src="./img/luke-summer-portrait.jpg"
+                alt="Portrait of Luke Bassett"
+                class="about-img"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section projects-section" id="projects">
+        <div class="project-container">
+          <h2 class="section-title">Projects</h2>
+          <!-- project 1 -->
+          <div class="project-container-grid">
+            <div class="project-container--title">
+              <h3 class="heading-two">Harvey's of Stretton</h3>
+              <p class="project-subheading">Admin App</p>
+            </div>
+            <div class="project-container--tags">
+              <ul class="tags">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>PHP</li>
+                <li>HeidiSQL</li>
+                <li>XAMPP</li>
+              </ul>
+            </div>
+            <div class="project-container--img">
+              <img
+                src="./img/harveys-of-stretton.png"
+                alt="Harvey's of Stretton main menu"
+                class="project-img"
+              />
+            </div>
+            <div class="project-container--body">
+              <p>
+                An admin web application for a fictional car dealership. This
+                app allowed admins to manage and manipulate vehicle and customer
+                information, keep their database secure with a login password.
+              </p>
+              <p>
+                Created in my HND, this was the first project I made as part of
+                the web development course in which I got a distinction grade
+                for.
+              </p>
+            </div>
+            <div class="project-container--cta">
+              <a href="soon.html" class="link">Repository</a>
+            </div>
+          </div>
+          <!-- project 2 -->
+          <div class="project-container-grid">
+            <div class="project-container--title">
+              <h3 class="heading-two">Formula 1 Stats App</h3>
+              <p class="project-subheading">Stats App</p>
+            </div>
+            <div class="project-container--tags">
+              <ul class="tags">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>API's</li>
+              </ul>
+            </div>
+            <div class="project-container--img">
+              <img
+                src="./img/placeholder-images.jpg"
+                alt="Formula 1 Stats App Homepage"
+                class="project-img"
+              />
+            </div>
+            <div class="project-container--body">
+              <p>
+                An admin web application for a fictional car dealership. This
+                app allowed admins to manage and manipulate vehicle and customer
+                information, keep their database secure with a login password.
+              </p>
+            </div>
+            <div class="project-container--cta">
+              <a href="soon.html" class="link">Repository</a>
+            </div>
+          </div>
+          <!-- project 3 -->
+          <!-- <div class="project-container-grid">
+            <div class="project-container--title">
+              <h3 class="heading-two">Portfolio</h3>
+              <p class="project-subheading">Frontend Mentor Work</p>
+            </div>
+            <div class="project-container--tags">
+              <ul class="tags">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+              </ul>
+            </div>
+            <div class="project-container--img">
+              <img
+                src="./img/placeholder-images.jpg"
+                alt=""
+                class="project-img"
+              />
+            </div>
+            <div class="project-container--body">
+              <p>
+                An admin web application for a fictional car dealership. This
+                app allowed admins to manage and manipulate vehicle and customer
+                information, keep their database secure with a login password.
+              </p>
+            </div>
+            <div class="project-container--cta">
+              <a href="#" class="link">Repository</a>
+            </div>
+          </div> -->
+        </div>
+      </section>
+      <section class="section contact-section" id="contact">
+        <h2 class="section-title">Let's Talk!</h2>
+        <div class="contact-section-container">
+          <a href="soon.html" class="btn btn-primary big-btn">Contact me</a>
+        </div>
+      </section>
+    </main>
+    <footer class="footer-section">
+      <div class="footer-section-container">
+        <!-- <ul class="footer--socials">
+          <li>
+            <a href="#"><i class="fa-solid fa-envelope"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-code"></i></a>
+          </li>
+        </ul> -->
+        <div class="footer--bottom">
+          <p>
+            © 2023, Designed and Developed by
+            <a href="#top" class="link">Luke Bassett</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
